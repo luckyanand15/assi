@@ -1,0 +1,9 @@
+.wrapper h3{
+    background-color: yellow;
+}
+
+.wrapper p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

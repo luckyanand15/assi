@@ -1,0 +1,33 @@
+.wrapper h3{
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+.griding{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto 40px auto;
+    gap:10px;
+}
+
+.griding .gridItem{
+    justify-self: end;
+}
+
+.griding button{
+    width: 300px;
+    color: white;
+    background-color: lawngreen;
+    border: 0;
+    padding: 5px;
+}
+
+input[type="text"]:not([type="radio"]) {
+    width: 300px;
+}
+input[type="email"]:not([type="checkbox"]){
+    width: 300px;
+}
+input[type="password"]{
+    width: 300px;
+}

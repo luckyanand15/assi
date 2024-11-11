@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: #DEE9F5;
+}
+.wrapper li{
+    list-style: none;
+}
+
+.wrapperInner{
+    display: flex;
+    justify-content: space-between;
+    min-width: 20%;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.btn{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}

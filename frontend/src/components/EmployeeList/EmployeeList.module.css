@@ -1,0 +1,54 @@
+.wrapper h3 {
+  background-color: yellow;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #dee9f5;
+}
+
+.createButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.createButton button {
+  width: 300px;
+  color: black;
+  background-color: #91d04f;
+  border: 0;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.createButton p {
+  display: flex;
+  align-items: center;
+}
+
+.editDeleteBtn button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search input{
+  padding: 5px;
+}
